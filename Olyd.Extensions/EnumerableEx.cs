@@ -1,6 +1,6 @@
 ﻿namespace Olyd.Extensions
 {
-    public static class EnumerableExtensions
+    public static class EnumerableEx
     {
         /// <summary>
         /// 扩展方法：对集合中的每个元素执行指定的操作。

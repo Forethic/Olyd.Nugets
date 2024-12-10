@@ -1,6 +1,6 @@
 ﻿namespace Olyd.Extensions
 {
-    public static class StringExtensions
+    public static class StringEx
     {
         /// <summary>
         /// 扩展方法：检查字符串是否为 null 或者只包含空白字符。
