@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<Authors>Forethic.Lia</Authors>
+		<Company>Olyd Company Ltd</Company>
+		<Description>常用的拓展方法集</Description>
+		<PackageTags>extension methods</PackageTags>
+		<RepositoryUrl>https://github.com/Forethic/Olyd.Nugets</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="licenses\LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="docs\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

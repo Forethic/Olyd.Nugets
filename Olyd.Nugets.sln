@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Extensions", "Olyd.Extensions\Olyd.Extensions.csproj", "{E4747651-B752-4362-BDB7-6E6895C7438D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17B2132B-5BF0-4627-A432-10F11687CAB2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4747651-B752-4362-BDB7-6E6895C7438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4747651-B752-4362-BDB7-6E6895C7438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4747651-B752-4362-BDB7-6E6895C7438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4747651-B752-4362-BDB7-6E6895C7438D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
