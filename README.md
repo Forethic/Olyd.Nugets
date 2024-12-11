@@ -17,3 +17,9 @@
 #### Olyd.Util.WinForm
 
 winform 工具箱
+
+### Wpf
+
+#### Olyd.Wpf.AutoScale
+
+WPF 窗体自适应缩放方案
