@@ -28,9 +28,24 @@ namespace Olyd.Wpf.Helpers
         public static readonly object Double1 = 1d;
 
         /// <summary>
+        /// 2d
+        /// </summary>
+        public static readonly object Double2 = 2d;
+
+        /// <summary>
         /// 5d
         /// </summary>
         public static readonly object Double5 = 5d;
+
+        /// <summary>
+        /// 6d
+        /// </summary>
+        public static readonly object Double6 = 6d;
+
+        /// <summary>
+        /// 8d
+        /// </summary>
+        public static readonly object Double8 = 8d;
 
         /// <summary>
         /// 10d
@@ -63,9 +78,14 @@ namespace Olyd.Wpf.Helpers
         public static readonly object Double25 = 25d;
 
         /// <summary>
-        /// 20d
+        /// 40d
         /// </summary>
         public static readonly object Double40 = 40d;
+
+        /// <summary>
+        /// 50d
+        /// </summary>
+        public static readonly object Double50 = 50d;
 
         /// <summary>
         /// 1
