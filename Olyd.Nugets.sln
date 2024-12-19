@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wpfs", "Wpfs", "{9A470130-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Wpf.DpiAutoScale", "Olyd.Wpf.DpiAutoScale\Olyd.Wpf.DpiAutoScale.csproj", "{837F45F8-8C89-478A-A15F-1ABB0E80689A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Wpf.Helpers", "Olyd.Wpf.Helpers\Olyd.Wpf.Helpers.csproj", "{F11C42F6-3577-49C0-A4AD-3C9541EC09AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{837F45F8-8C89-478A-A15F-1ABB0E80689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837F45F8-8C89-478A-A15F-1ABB0E80689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{837F45F8-8C89-478A-A15F-1ABB0E80689A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11C42F6-3577-49C0-A4AD-3C9541EC09AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11C42F6-3577-49C0-A4AD-3C9541EC09AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11C42F6-3577-49C0-A4AD-3C9541EC09AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11C42F6-3577-49C0-A4AD-3C9541EC09AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6102D1C8-72F8-455B-92E3-406EFF2F1FE6} = {9234B04B-96EB-41C2-A4DB-781F31BC69AF}
 		{837F45F8-8C89-478A-A15F-1ABB0E80689A} = {9A470130-7378-4D29-9EE9-B83F289B4CF0}
+		{F11C42F6-3577-49C0-A4AD-3C9541EC09AA} = {9A470130-7378-4D29-9EE9-B83F289B4CF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FE8A9C0-B357-4AA0-AE1A-84C1BB34CD50}
