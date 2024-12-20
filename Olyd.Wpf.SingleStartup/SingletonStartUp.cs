@@ -433,8 +433,6 @@ namespace Olyd.Wpf.SingleStartup
             return true;
         }
 
-
         #endregion
-
     }
 }
