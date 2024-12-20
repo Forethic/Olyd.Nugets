@@ -1,0 +1,69 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <!--  GuideButton  -->
+    <SolidColorBrush x:Key="GuideButtonBorderBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideButtonBorderColor}" />
+
+    <SolidColorBrush x:Key="GuideButtonBackgroundBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideButtonBackgroundColor}" />
+
+    <SolidColorBrush x:Key="GuideButtonHoverBorderBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideButtonHoverBorderColor}" />
+
+    <SolidColorBrush x:Key="GuideButtonForegroundBursh"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideButtonForegroundColor}" />
+
+    <!--  GuideRectangle  -->
+    <SolidColorBrush x:Key="GuideRectangleFillBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideRectangleFillColor}" />
+
+    <SolidColorBrush x:Key="GuideRectangleStrokeBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideRectangleStrokeColor}" />
+
+    <!--  GuideLabel  -->
+    <SolidColorBrush x:Key="GuideLabelBackgroundBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideLabelBackgroundColor}" />
+
+    <SolidColorBrush x:Key="GuideLabelForegroundBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideLabelForegroundColor}" />
+
+    <!--  GuideIndicator  -->
+    <SolidColorBrush x:Key="GuideIndicatorPrimaryBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideIndicatorPrimaryColor}" />
+
+    <SolidColorBrush x:Key="GuideIndicatorSecondBrush"
+                     options:Freeze="True"
+                     Color="{DynamicResource GuideIndicatorSecondColor}" />
+
+    <LinearGradientBrush x:Key="GuideIndicatorBrush.Left" StartPoint="0 1" EndPoint="1 1">
+        <GradientStop Offset="0" Color="{DynamicResource GuideIndicatorPrimaryColor}" />
+        <GradientStop Offset="1" Color="{DynamicResource GuideIndicatorSecondColor}" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="GuideIndicatorBrush.Right" StartPoint="0 1" EndPoint="1 1">
+        <GradientStop Offset="1" Color="{DynamicResource GuideIndicatorPrimaryColor}" />
+        <GradientStop Offset="0" Color="{DynamicResource GuideIndicatorSecondColor}" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="GuideIndicatorBrush.Bottom" StartPoint="1 0" EndPoint="1 1">
+        <GradientStop Offset="1" Color="{DynamicResource GuideIndicatorPrimaryColor}" />
+        <GradientStop Offset="0" Color="{DynamicResource GuideIndicatorSecondColor}" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="GuideIndicatorBrush.Top" StartPoint="1 0" EndPoint="1 1">
+        <GradientStop Offset="0" Color="{DynamicResource GuideIndicatorPrimaryColor}" />
+        <GradientStop Offset="1" Color="{DynamicResource GuideIndicatorSecondColor}" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>

@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:od="http://olyd.top/winfx/xaml/controls"
+                    xmlns:uc="clr-namespace:Olyd.Wpf.Guide.UserControls">
+
+    <Style TargetType="{x:Type uc:GuideLabel}">
+        <Setter Property="Padding" Value="15,8" />
+        <Setter Property="Background" Value="{DynamicResource GuideLabelBackgroundBrush}" />
+        <Setter Property="od:ControlsHelper.CornerRadius" Value="10" />
+
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Foreground" Value="{DynamicResource GuideLabelForegroundBrush}" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type uc:GuideLabel}">
+                    <Border Padding="{TemplateBinding Padding}"
+                            Background="{TemplateBinding Background}"
+                            CornerRadius="{TemplateBinding od:ControlsHelper.CornerRadius}">
+                        <TextBlock HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontFamily="{TemplateBinding FontFamily}"
+                                   FontSize="{TemplateBinding FontSize}"
+                                   Foreground="{TemplateBinding Foreground}"
+                                   Text="{TemplateBinding Content}" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

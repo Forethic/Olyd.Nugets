@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Olyd.Wpf.Guide;component/Themes/Brushes.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--  GuideButton  -->
+    <Color x:Key="GuideButtonBorderColor">#44814E</Color>
+    <Color x:Key="GuideButtonBackgroundColor">#3344814E</Color>
+    <Color x:Key="GuideButtonHoverBorderColor">#44814E</Color>
+    <Color x:Key="GuideButtonForegroundColor">#F5F5F5</Color>
+
+    <!--  GuideRectangle  -->
+    <Color x:Key="GuideRectangleFillColor">#01131914</Color>
+    <Color x:Key="GuideRectangleStrokeColor">#44814E</Color>
+
+    <!--  GuideLabel  -->
+    <Color x:Key="GuideLabelBackgroundColor">#44814E</Color>
+    <Color x:Key="GuideLabelForegroundColor">#F5F5F5</Color>
+
+    <!--  GuideIndicator  -->
+    <Color x:Key="GuideIndicatorPrimaryColor">#44814E</Color>
+    <Color x:Key="GuideIndicatorSecondColor">#5344814E</Color>
+
+</ResourceDictionary>

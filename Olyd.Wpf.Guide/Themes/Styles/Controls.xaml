@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="GuideButton.xaml" />
+        <ResourceDictionary Source="GuideRectangle.xaml" />
+        <ResourceDictionary Source="GuideLabel.xaml" />
+        <ResourceDictionary Source="GuideIndicator.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
