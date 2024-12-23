@@ -1,0 +1,114 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ot="clr-namespace:Olyd.Wpf.Converters"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <ot:ValueWhenConverter x:Key="AntiBooleanConverter">
+        <ot:ValueWhenConverter.When>
+            <sys:Boolean>True</sys:Boolean>
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <sys:Boolean>False</sys:Boolean>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <sys:Boolean>True</sys:Boolean>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="BoolToVisibilityVisibleHiddenConverter">
+        <ot:ValueWhenConverter.When>
+            <sys:Boolean>True</sys:Boolean>
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Hidden</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="BoolToVisibilityHiddenVisibleConverter">
+        <ot:ValueWhenConverter.When>
+            <sys:Boolean>False</sys:Boolean>
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Hidden</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="BoolToVisibilityVisibleCollapsedConverter">
+        <ot:ValueWhenConverter.When>
+            <sys:Boolean>True</sys:Boolean>
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Collapsed</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="BoolToVisibilityCollapsedVisibleConverter">
+        <ot:ValueWhenConverter.When>
+            <sys:Boolean>False</sys:Boolean>
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Collapsed</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="NullToVisibilityVisibleHiddenConverter">
+        <ot:ValueWhenConverter.When>
+            <x:Null />
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Collapsed</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="NullToVisibilityHiddenVisibleConverter">
+        <ot:ValueWhenConverter.When>
+            <x:Null />
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Hidden</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="NullToVisibilityVisibleCollapsedConverter">
+        <ot:ValueWhenConverter.When>
+            <x:Null />
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Collapsed</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+    <ot:ValueWhenConverter x:Key="NullToVisibilityCollapsedVisibleConverter">
+        <ot:ValueWhenConverter.When>
+            <x:Null />
+        </ot:ValueWhenConverter.When>
+        <ot:ValueWhenConverter.Value>
+            <Visibility>Collapsed</Visibility>
+        </ot:ValueWhenConverter.Value>
+        <ot:ValueWhenConverter.Otherwise>
+            <Visibility>Visible</Visibility>
+        </ot:ValueWhenConverter.Otherwise>
+    </ot:ValueWhenConverter>
+
+</ResourceDictionary>
