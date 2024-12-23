@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Wpf.SingleStartup", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Wpf.Converters", "Olyd.Wpf.Converters\Olyd.Wpf.Converters.csproj", "{EB57B6EF-3FEB-4CC6-838C-5D9034DDE5D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.History", "Olyd.History\Olyd.History.csproj", "{BDDB4003-3542-4EC1-8E6B-EB3C0A43E7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.History.Test", "Olyd.History.Test\Olyd.History.Test.csproj", "{2A575071-9956-415A-8175-D5898C338685}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +70,14 @@ Global
 		{EB57B6EF-3FEB-4CC6-838C-5D9034DDE5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB57B6EF-3FEB-4CC6-838C-5D9034DDE5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB57B6EF-3FEB-4CC6-838C-5D9034DDE5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDB4003-3542-4EC1-8E6B-EB3C0A43E7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDB4003-3542-4EC1-8E6B-EB3C0A43E7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDB4003-3542-4EC1-8E6B-EB3C0A43E7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDB4003-3542-4EC1-8E6B-EB3C0A43E7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A575071-9956-415A-8175-D5898C338685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A575071-9956-415A-8175-D5898C338685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A575071-9956-415A-8175-D5898C338685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A575071-9956-415A-8175-D5898C338685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.0.0</Version>
+		<Authors>Forethic.Lia</Authors>
+		<Company>Olyd Company Ltd</Company>
+		<Description>撤消重做解决方案</Description>
+		<PackageTags>Undo/Redo</PackageTags>
+		<RepositoryUrl>https://github.com/Forethic/Olyd.Nugets</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="licenses\LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="docs\README.md" Pack="true" PackagePath="\" />
+		<None Include="bin\$(Configuration)\$(AssemblyName).xml" Pack="true" PackagePath="docs\$(AssemblyName).xml" />
+	</ItemGroup>
+</Project>
+
