@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.History", "Olyd.Histor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.History.Test", "Olyd.History.Test\Olyd.History.Test.csproj", "{2A575071-9956-415A-8175-D5898C338685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olyd.Utils", "Olyd.Utils\Olyd.Utils.csproj", "{799A7BA6-2197-4272-B79D-AB4DE8DD5F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{2A575071-9956-415A-8175-D5898C338685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A575071-9956-415A-8175-D5898C338685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A575071-9956-415A-8175-D5898C338685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799A7BA6-2197-4272-B79D-AB4DE8DD5F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799A7BA6-2197-4272-B79D-AB4DE8DD5F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799A7BA6-2197-4272-B79D-AB4DE8DD5F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799A7BA6-2197-4272-B79D-AB4DE8DD5F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
