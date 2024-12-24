@@ -133,7 +133,14 @@
             {
                 // 如果没有变更，直接退出
                 if (_changes.Count == 0)
+                {
+                    // 这里必须清除当前激活的 ChangeTracker，不然后续无法继续添加变更
+                    if (_current == this)
+                        _current = null;
+
+                    _disposed = true;
                     return;
+                }
 
                 if (_parent == null)
                 {
