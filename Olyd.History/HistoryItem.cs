@@ -30,7 +30,10 @@
         {
             _beforeSelectedItems = beforeSelectedItems ?? new List<object>();
             _afterSelectedItems = afterSelectedItems ?? new List<object>();
-            _changes = changes ?? new List<BaseChange>();
+            if (changes == null)
+                _changes = new List<BaseChange>();
+            else
+                _changes = new List<BaseChange>(changes);
         }
 
         /// <summary>
